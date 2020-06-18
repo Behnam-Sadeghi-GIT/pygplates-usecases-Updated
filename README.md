@@ -28,4 +28,5 @@ You would need to install 'netCDF4' using Conda or pip.
 #### 2.5. OSError: [Errno -51] NetCDF: Unknown file format: b'muller_etal_2016_areps_v1.17_agegrid-0.nc'
 For such errors, it is better to removed the files in downloaded from a URL, and downoad and execute them again. Otherwise, even by improving the codes, you cannot execute them correctly and you would get the same error.
 
-### 3. "Healpy" in the codes below, is a proper tool to generate the mesh. However, it is only compatible with Linux and Apple (OSX). To install this package using conda run one of the commands in this link: https://anaconda.org/conda-forge/healpy Windows users instead can use GPlates software to generate the mesh files. The other possibility is applying this code: https://github.sydney.edu.au/EarthByte/spatio-temporal-exploration/blob/master/python/icosahedron.ipynb
+### 3. "Healpy" module
+It is a proper tool to generate the mesh. However, it is only compatible with Linux and Apple (OSX). To install this package using conda run one of the commands in this link: https://anaconda.org/conda-forge/healpy Windows users instead can use GPlates software to generate the mesh files. The other possibility is applying this code: https://github.sydney.edu.au/EarthByte/spatio-temporal-exploration/blob/master/python/icosahedron.ipynb
